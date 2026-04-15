@@ -1,4 +1,29 @@
+# Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
 .env
+.env.*
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Uploaded files (user data — never commit)
+data/uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
