@@ -4,7 +4,7 @@ from app.services.vector_store import load_and_search  # 🔹 Import FAISS searc
 from app.services.memorymanager import memory_manager
 
 # Initialize the LLM
-llm = OllamaLLM(model="gemma4:e4b")
+llm = OllamaLLM(model="llama3:latest")
 
 def answer_question(user_question: str, session_id: str) -> str:
     try:

@@ -2,7 +2,7 @@ from langchain_ollama import OllamaLLM
 
 
 class LLMService:
-    def __init__(self, model: str = "gemma4:e4b"):
+    def __init__(self, model: str = "llama3:latest"):
         self.model = model
         self.llm = OllamaLLM(
             model=model,

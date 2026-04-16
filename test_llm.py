@@ -34,7 +34,7 @@ else:
 # ── 4. generate_strict_json() ────────────────────────────────
 print("\n[4/4] Calling generate_strict_json() — JSON prompt...")
 json_response = llm_service.generate_strict_json(
-    'Return this exact JSON: {"status": "ok", "model": "gemma"}'
+    'Return this exact JSON: {"status": "ok", "model": "llama3"}'
 )
 if '"error"' in json_response and "LLM Error" in json_response:
     print(f"      ❌ JSON Error: {json_response}")

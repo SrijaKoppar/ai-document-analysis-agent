@@ -62,7 +62,7 @@ st.markdown("""
 
 # ── Header ────────────────────────────────────────────────────
 st.markdown('<p class="main-header">📄 Document Analysis Agent</p>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">AI-powered document analysis with reusable agent skills • Powered by Ollama + Gemma</p>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">AI-powered document analysis with reusable agent skills • Powered by Ollama + Llama 3</p>', unsafe_allow_html=True)
 st.divider()
 
 # ── Sidebar: Skill Registry ──────────────────────────────────

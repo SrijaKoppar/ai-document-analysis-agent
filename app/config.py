@@ -4,7 +4,7 @@ Centralized configuration for the Document Analysis Agent.
 import os
 
 # ── LLM ──────────────────────────────────────────────────────
-LLM_MODEL = os.getenv("LLM_MODEL", "gemma4:e4b")
+LLM_MODEL = os.getenv("LLM_MODEL", "llama3:latest")
 LLM_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0.2"))
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 
